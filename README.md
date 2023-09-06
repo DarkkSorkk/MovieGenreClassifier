@@ -27,7 +27,7 @@ The model performed verry well on the test set. For more details, refer to the e
 - Extend the project to include more features, like director and cast.
 
 ## Author
-Allan [Linkedin](www.linkedin.com/in/allan-felipe-silva-80370a130)
+Allan [Linkedin] (www.linkedin.com/in/allan-felipe-silva-80370a130)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
