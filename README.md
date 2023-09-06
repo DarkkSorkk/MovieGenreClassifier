@@ -1,33 +1,42 @@
-# Movie Genre Classifier
+Movie Genre Classifier
 
-## Overview
-This project is designed to predict the genre of movies based on their titles and synopses. It employs a TF-IDF Vectorizer to convert text data into numerical format and a Random Forest Classifier for making genre predictions.
+Overview:
+---------
+This repository contains a machine learning model trained to predict the genre of a movie based on its title and synopsis. The model uses a Random Forest algorithm and TF-IDF for feature extraction.
 
-## Requirements
+Features:
+---------
+- Predict the genre of a movie
+- Calculates the probability of the predicted genre
+- Uses TF-IDF for feature extraction
+- Trained on a dataset of 36,000 to 39,000 entries
+
+Getting Started:
+----------------
+Prerequisites:
 - Python 3.x
-- Scikit-learn
-- Pandas
-- NumPy
+- pandas
+- scikit-learn
 
-## How to Run
-1. Clone this repository.
-2. Navigate to the project directory.
-3. Run `pip install -r requirements.txt` to install dependencies.
-4. Execute the main script: `python predict.py`.
+Installation:
+1. Clone the repository: git clone https://github.com/DarkkSorkk/MovieGenreClassifier.git
+2. Navigate to the project directory: cd MovieGenreClassifier
+3. Install the required packages: pip install -r requirements.txt
 
-## Dataset
-The dataset used for training and testing is not publicly available due to copyright reasons. However, you can replace it with any movie dataset having a title and synopsis for each entry.
+Usage:
+------
+Run the prediction script: python predict.py
 
-## Model Performance
-The model performed verry well on the test set. For more details, refer to the evaluation notebook.
+Future Enhancements:
+--------------------
+- Implement more algorithms for better accuracy
+- Add a web-based UI for easy interaction
 
-## Future Work
-- Experiment with different machine learning algorithms.
-- Fine-tune model hyperparameters.
-- Extend the project to include more features, like director and cast.
+Contributing:
+-------------
+Feel free to open issues and pull requests!
 
-## Author
-Allan [Linkedin] (www.linkedin.com/in/allan-felipe-silva-80370a130)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+Author:
+-------
+Allan Felipe Silva
+LinkedIn: www.linkedin.com/in/allan-felipe-silva-80370a130
